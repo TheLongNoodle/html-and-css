@@ -1,5 +1,5 @@
 :root {
-  --custom-radius: 20px
+    --custom-radius: 20px
 }
 
 .container {
@@ -9,8 +9,8 @@
 }
 
 .login {
-    height: 1000px;
-    width: 80%;
+    height: 1050px;
+    width: 50%;
     border-radius: var(--custom-radius);
     box-shadow: 10px -10px 50px grey;
 }
@@ -42,4 +42,99 @@
     color: white;
 }
 
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.form h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    color: #1b5f74;
+}
+
+.form img {
+    width: 20px;
+    height: 20px;
+}
+
+.form a {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 25px;
+    border: none;
+    text-align: center;
+    color: #1b5f74;
+}
+
+.form .text {
+    text-align: left;
+}
+
+.form input {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.form li {
+    float: left;
+}
+
+.form ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+}
+
+.user,
+.pass {
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+    background-color: #1b5f74;
+    width: 90%;
+    border-radius: var(--custom-radius);
+}
+
+.form a:hover {
+    color: #72c969;
+}
+
+.form button {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    margin: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #1b5f74;
+
+}
+
+.form button:hover {
+    background-color: #4b8fa4;
+}
+
+.info {
+    width: 70%;
+}
